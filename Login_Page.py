@@ -7,7 +7,6 @@ from selenium.webdriver.common.by import By
 import allure
 
 
-
 def test_shop_pages():
     browser = webdriver.Firefox(service=Service(GeckoDriverManager().install()))
 # перейти на сайт_подождать подгрузку_развернуть окно
