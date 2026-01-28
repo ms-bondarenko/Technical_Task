@@ -1,4 +1,4 @@
-# ТЕХНИЧЕСКОЕ ЗАДАНИЕ ДЛЯ Effective Mobile
+# ТЕХНИЧЕСКОЕ ЗАДАНИЕ ДЛЯ Effective Mobile НА ВАКАНСИЮ JUNIOR AQA PYTHON
 
 ## Автотесты для Страницы входа(https://www.saucedemo.com/), в рамках ui теста произведен серия тестов Авторизаия 
 
@@ -6,7 +6,7 @@
    
 
 ### Шаги
-1. Склонировать проект 'git clone https://github.com/ms-bondarenko/Mihail_Bondarenko_final.git'
+1. Склонировать проект 'git clone https://github.com/ms-bondarenko/Technical_Task.git'
 2. Установить все зависимости из requirements.txt командой pip install -r requirements.txt
 3. 1)Создать виртуальное окружение и 2)активировать его: 1)python -m venv venv, 2)venv\scripts\activate # Windows
 4. Если pytest не запускает проект то установите переменную окружения
