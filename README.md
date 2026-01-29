@@ -14,12 +14,10 @@
 - например ($env:PYTHONPATH="C:\Users\SMART\Dcuments\Technical_Task1")
 
 ### Запуск тестов
-- UI тесты: pytest tests/test_ui.py --alluredir=allure-results
-- API тесты: pytest tests/test_api.py --alluredir=allure-results
-- Все тесты: pytest --alluredir=allure-results
+- UI тесты: pytest test_Login_page.py #--alluredir=allure-results пока не пришит
 ### Просмотр Allure отчёта
-- Сформировать результаты: pytest --alluredir=allure-results
-- Запустить сервер Allure: allure serve allure-results
+#- Сформировать результаты: pytest --alluredir=allure-results
+#- Запустить сервер Allure: allure serve allure-results
 
 ### Стек:
 - pytest
