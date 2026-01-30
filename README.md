@@ -27,10 +27,6 @@
 ### Структура:
 - ./pages - описание страниц
 
-### Полезные ссылки
-- [Подсказка по Markdown](https://www.markdownguide.org/basic-syntax/)
-- [Генератор файла .gitignore](https://www.toptal.com/developers/gitignore/)
-
 ### Библиотеки
 - allure-pytest==2.15.0
 - pytest==8.4.1
