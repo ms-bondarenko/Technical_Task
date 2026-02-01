@@ -14,10 +14,15 @@
 - например ($env:PYTHONPATH="C:\Users\SMART\Dcuments\Technical_Task1")
 
 ### Запуск тестов
-- UI тесты: pytest test_Login_page.py --alluredir=allure-results пока не пришит
+- UI тесты: pytest test_Login_Page.py --alluredir=allure-results
 ### Просмотр Allure отчёта
-#- Сформировать результаты: pytest --alluredir=allure-results
 #- Запустить сервер Allure: allure serve allure-results
+
+## ЗАПУСК ЧЕРЕЗ ДОКЕР
+**_- В терминале выполнить docker build -t my-python-app .
+- Проверить что образ создан  docker build -t my-python-app .
+- запустить контейнер docker run -it --name my-running-app my-python-app_**
+
 
 ### Стек:
 - pytest
