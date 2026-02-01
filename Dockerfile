@@ -1,15 +1,3 @@
-#FROM python:3
-#
-#WORKDIR /usr/local/app
-#
-#COPY requirements.txt ./
-#
-#COPY Pages ./Pages
-#
-#RUN pip install --no-cache-dir -r requirements.txt
-#
-#CMD ["python", "test_Login_Page.py"]
-
 # Укажите базовый образ Python
 FROM python:3.10
 
@@ -34,7 +22,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY . .
 
 # Укажите команду для запуска приложения
-CMD ["python", "test_Login_Page.py"]
+CMD ["python", "test_allure.py"]
 
 
 
